@@ -1,0 +1,69 @@
+/* h1{
+    background: yellow;
+    width: 300px;
+    
+} */
+a{
+    background: pink;
+    /* Shorthand */
+    padding: 10px;
+    margin: 20px;
+    /* width: 300px; */
+    /* height: 300px; */
+    display: inline-block;
+}
+
+.elemento{
+    background: yellow;
+    /* display: inline-block; */
+
+padding: 20px;
+/* padding: 20px 50px;
+padding: 20px 50px 80px; */
+/* padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px; */
+
+margin: 60px;
+
+
+}
+
+.elemento-2{
+    margin-top: 100px;
+}
+
+article{
+    background: tomato;
+}
+
+body{
+    background: turquoise;
+}
+
+h1{
+    margin: 0;
+}
+
+
+.caja{
+    width: 300px;
+    /* width: 276px; */
+    /* height: 176px; */
+    height: 200px;
+    border: 2px solid red;
+    padding: 100px;
+    /* padding: 10px; */
+    /* box-sizing: border-box; */
+}
+
+/* box-sizing{
+border-box
+padding-box
+content-box
+} */
+
+*, *:before, *:after{
+    box-sizing: border-box; 
+}

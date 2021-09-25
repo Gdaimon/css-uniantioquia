@@ -1,0 +1,39 @@
+/* Elementos */
+li{
+    color: pink;
+    font-weight: bold;
+}
+
+/* Clase */
+.hola{
+    color: peru;
+}
+
+/* id */
+#frutas{
+    background: yellow !important;
+}
+
+/* Universal */
+*{
+    border:solid 1px lightgray;
+}
+
+/* Slectores Agrupados */
+/* ul, *{
+    color: brown;
+} */
+
+ul, .hola{
+    background: chartreuse;
+}
+
+/* Selectores descendientes */
+ul a{
+    color:red;
+}
+
+/* Selectores hijos directos */
+li > ul{
+    display: none;
+}

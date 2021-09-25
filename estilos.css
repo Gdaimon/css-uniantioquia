@@ -1,0 +1,16 @@
+h1{
+    /* Colores por su nombre en ingles */
+    color: blue;
+}
+
+li{
+    /* Hexadecimal */
+    color:#2840c777
+}
+
+h4{
+    /* RGB */
+    /* color: rgb(240,100,87); */
+    /* RGBA 4 parametro se mueve entre 0 y 1*/
+    color: rgb(240,100,87, 0.5);
+}
